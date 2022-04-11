@@ -1,7 +1,7 @@
 # jdev-solver
 Quick program thrown together to solve a specific pre-application assignment.
 
-Given a map which consists of walls (character #), floors (character .), starting position (letter S) and ending position (letter E), count how many robot needs to take to reach the ending position from the starting position.
+Given a map which consists of walls (character #), floors (character .), starting position (letter S) and ending position (letter E), count how many steps robot needs to take to reach the ending position from the starting position.
 
 Robot has following rules for movement:
 * Starting direction is always up.

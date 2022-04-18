@@ -21,7 +21,7 @@ int	main(int ac, char **av) {
 		exit(1);
 	};
 	size_t steps = solve_map(read_map(av[1], map));
-	printf("took %ld steps\n\ntrace:\n%s", steps, map);
+	printf("took %ld steps\n\ntrace:\n%s\n", steps, map);
 	return (0);
 }
 

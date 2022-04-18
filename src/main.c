@@ -47,7 +47,7 @@ size_t solve_map(char **map) {
 	while (*seek != END) {
 		seek = step(seek, cols);
 		if (!isdigit(*seek)) *seek = '1';
-		else *seek++;
+		else (*seek)++;
 		steps++;
 	}
 
